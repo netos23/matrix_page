@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.background-img {
+    background-size: cover;
+    background-image: url("img/bg.gif");
+    background-clip: border-box;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#morfeus {
+    background-size: cover;
+    background: url("img/morfeus_all.png") no-repeat center bottom;
+    background-clip: border-box;
+    min-height: 0;
+    min-width: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#message {
+    font-weight: bold;
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+
+    padding-top: 50vh;
+}
+
+#blue {
+    width: 49px;
+    height: 47px;
+    margin: 0;
+    border: 0;
+    padding-bottom: 15vh;
+    background: transparent url("img/blue-pill.png") no-repeat center;
+}
+
+#red {
+    width: 51px;
+    height: 48px;
+    margin: 0;
+    border: 0;
+    padding-bottom: 15vh;
+    background: transparent url("img/red-pill.png") no-repeat center;
+}
+
+#form-holder {
+    padding: 23vh 25vw 0;
+    alignment: center;
+}
+
+#red-poser {
+    /*padding-left: 20vw;*/
+}
+
+#blue-poser {
+    padding-right: 40vw;
+}
+
+form {
+    alignment: center;
+}
